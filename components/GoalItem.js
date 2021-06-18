@@ -9,6 +9,7 @@ import {
   TouchableWithoutFeedback,
 } from "react-native";
 
+
 export const GoalItem = (props) => {
   return (
     <TouchableWithoutFeedback onPress={props.onDelete}>
